@@ -1,0 +1,30 @@
+uuid: 15a9b5fa-703e-49a1-9cdb-08b59c45a6de
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_image:8235e8ac-ce44-4a48-a852-256f4a208155'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_herobanner
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:8235e8ac-ce44-4a48-a852-256f4a208155'
+settings:
+  id: 'block_content:8235e8ac-ce44-4a48-a852-256f4a208155'
+  label: Hero-banner
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/product/*"

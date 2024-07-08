@@ -1,0 +1,24 @@
+uuid: e72b980a-d2ac-4af0-8409-8d2c19e3e313
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_about_company
+    - paragraphs.paragraphs_type.partner_icon
+  module:
+    - text
+id: paragraph.partner_icon.field_about_company
+field_name: field_about_company
+entity_type: paragraph
+bundle: partner_icon
+label: About-company
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

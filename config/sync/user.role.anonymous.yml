@@ -1,0 +1,30 @@
+uuid: 0d23cf13-8ec7-4d66-bf6e-92ef9c533991
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - comment
+    - contact
+    - field_ui
+    - filter
+    - node
+    - paragraphs_type_permissions
+    - search
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'administer node display'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view paragraph content banner'
+  - 'view paragraph content partner_icon'
