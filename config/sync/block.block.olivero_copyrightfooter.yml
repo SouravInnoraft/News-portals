@@ -1,0 +1,26 @@
+uuid: 00c0863e-ff75-4539-8aa6-6970c0161678
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_footer
+  theme:
+    - olivero
+id: olivero_copyrightfooter
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: copyright_footer
+settings:
+  id: copyright_footer
+  label: 'Copyright Footer'
+  label_display: '0'
+  provider: copyright_footer
+  organization_name: Innoraft
+  organization_url: 'https://www.innoraft.com/'
+  year_origin: 2011
+  year_to_date: null
+  version: ''
+  version_url: ''
+visibility: {  }

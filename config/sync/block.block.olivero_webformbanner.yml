@@ -1,0 +1,30 @@
+uuid: e1d7024e-f3f2-496f-91b1-19531c123176
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_image:00f8d631-5883-46c4-a4de-93229c1be608'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_webformbanner
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:00f8d631-5883-46c4-a4de-93229c1be608'
+settings:
+  id: 'block_content:00f8d631-5883-46c4-a4de-93229c1be608'
+  label: webform-banner
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact-us

@@ -1,0 +1,25 @@
+uuid: 895dc83e-eec6-4dca-8277-b7bf1773e14b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_block:9ea16c03-e985-44ba-88da-10f736901cbb'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_footercontact
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:9ea16c03-e985-44ba-88da-10f736901cbb'
+settings:
+  id: 'block_content:9ea16c03-e985-44ba-88da-10f736901cbb'
+  label: 'Footer contact'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

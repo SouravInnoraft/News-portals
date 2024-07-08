@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: da7b8a2a-1850-43da-9035-a31b148a8f15
+name: 'News sites'
+mail: sourav.chandra@innoraft.com
+slogan: ''
+page:
+  403: /node/29
+  404: /node/28
+  front: /node/187
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

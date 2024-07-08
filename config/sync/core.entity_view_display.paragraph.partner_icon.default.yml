@@ -1,0 +1,35 @@
+uuid: fc4469af-af73-47c6-9506-1fa38d2a525c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.partner_icon.field_about_company
+    - field.field.paragraph.partner_icon.field_banner_image
+    - paragraphs.paragraphs_type.partner_icon
+  module:
+    - image
+    - text
+id: paragraph.partner_icon.default
+targetEntityType: paragraph
+bundle: partner_icon
+mode: default
+content:
+  field_about_company:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_banner_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
